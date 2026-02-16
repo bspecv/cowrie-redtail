@@ -17,3 +17,12 @@ There was no evidence of active (C2) traffic or a hardcoded wallet address in th
 Cowrie prevents full execution of malicious scripts, which allows safe observation of attacker behavior without impacting production systems.
 
 This project demonstrates how honeypots combined with SIEM analysis can be used to study real-world attacker techniques in a controlled environment.
+
+## Start Here
+
+- **Full incident report:** `report/Incident_Report_RedTail_XMRig.md`
+- **Splunk detections used:** `detection/splunk_queries.md`
+- **IOCs:** `iocs/hashes.txt` and `iocs/iocs.txt`
+- **Evidence screenshots:** `screenshots/`
+
+![Splunk attack timeline](screenshots/splunk/splunk_attack_timeline.png)
