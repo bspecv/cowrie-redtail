@@ -1,0 +1,8 @@
+# Source IP observed in Cowrie/Splunk
+130.12.180.51
+
+# Domains observed in binary strings (XMRig-related)
+donate.ssl.xmrig.com
+donate.v2.xmrig.com
+xmrig.com
+nicehash.com
