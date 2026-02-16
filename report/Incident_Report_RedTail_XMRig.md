@@ -368,5 +368,29 @@ This investigation demonstrates structured SOC triage, malware analysis, MITRE m
 
 ---
 
+## Evidence Screenshots
+
+### 1) Splunk – Full Attack Timeline (Session 1b26d0621343)
+This view shows the end-to-end attack chain: SSH connection → successful login → file uploads → command execution → persistence attempt.
+
+![Splunk attack timeline](../screenshots/splunk/splunk_attack_timeline.png)
+
+---
+
+### 2) Cowrie – Downloaded Payload Hashes
+Hashes observed from Cowrie `downloads/` for RedTail binaries and associated scripts.
+
+![Cowrie downloaded hashes](../screenshots/analysis/cowrie_download_hashes.png)
+
+---
+
+### 3) MalwareBazaar – Hash Intelligence Correlation
+MalwareBazaar entry confirming the sample is associated with coin-mining activity (XMRig/coinminer classification) and related details.
+
+![MalwareBazaar hash match](../screenshots/malwarebazaar/redtail_hash.png)
+
+![MalwareBazaar details](../screenshots/malwarebazaar/redtail_hash_details.png)
+
+
 
 
