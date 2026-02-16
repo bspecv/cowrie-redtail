@@ -198,7 +198,6 @@ MalwareBazaar Classification:
 
 | Tactic | Technique | ID |
 
-|--------|-----------|----|
 
 | Initial Access | Valid Accounts | T1078 |
 
